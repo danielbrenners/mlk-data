@@ -1,5 +1,4 @@
 import React from "react";
-import HPSA_Area_Mental_Health from "../data/HPSA_Area_Mental_Health.kml";
 import HPSA_Points_Mental_Health from "../data/HPSA_Points_Mental_Health.kml";
 import ChicagoTransitMap from "../data/ChicagoTransitMap.kml";
 
@@ -23,7 +22,10 @@ const MapWithKmlLayer = compose(
   withGoogleMap
 )(props => (
   <GoogleMap defaultZoom={9} defaultCenter={{ lat: 41.9, lng: -87.624 }}>
-    <KmlLayer url={ChicagoTransitMap} options={{ preserveViewport: true }} />
+    <KmlLayer
+      url="https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/ChicagoTransitMap.kml"
+      options={{ preserveViewport: true }}
+    />
   </GoogleMap>
 ));
 
