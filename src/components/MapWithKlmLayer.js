@@ -23,7 +23,7 @@ const MapWithKmlLayer = compose(
 )(props => (
   <GoogleMap defaultZoom={9} defaultCenter={{ lat: 41.9, lng: -87.624 }}>
     <KmlLayer
-      url="https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/ChicagoTransitMap.kml"
+      url="https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/ChicagoTransitMapEarth.kml"
       options={{ preserveViewport: true }}
     />
   </GoogleMap>
