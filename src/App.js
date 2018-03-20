@@ -6,10 +6,8 @@ import MapComponent from "./components/MapComponent";
 
 class App extends Component {
   state = {
-    showHCC: true,
-    showHSPAPrimary: true,
-    showHSPAMental: false,
-    showHSPADental: true
+    showHCCMobile: true,
+    showHCCPermanent: true
   };
 
   render() {
@@ -20,10 +18,8 @@ class App extends Component {
         </header>
 
         <MapComponent
-          showHCC={this.state.showHCC}
-          showHSPAPrimary={this.state.showHSPAPrimary}
-          showHSPAMental={this.state.showHSPAMental}
-          showHSPADental={this.state.showHSPADental}
+          showHCCMobile={this.state.showHCCMobile}
+          showHCCPermanent={this.state.showHCCPermanent}
         />
       </div>
     );

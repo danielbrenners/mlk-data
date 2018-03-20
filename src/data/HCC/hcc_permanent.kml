@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0">
 <Document>
+
+    <Style id="IconStyle00">
+        <IconStyle>
+            <scale>0.5</scale>
+            <Icon>
+                <href>https://github.com/danielbrenners/mlk-data/blob/master/src/data/HSPA/CA/blue.png</href>
+            </Icon>
+        </IconStyle>
+        <LabelStyle>
+            <color>ff000000</color>
+            <scale>0.666667</scale>
+        </LabelStyle>
+        <PolyStyle>
+            <color>ff000000</color>
+            <outline>0</outline>
+        </PolyStyle>
+    </Style>
+
 <Placemark>
 <name>Brighter Beginnings Admin Site-Pleasant Hill</name>
 <description>3478 Buskirk Ave Ste 105 </description>
@@ -18,7 +36,7 @@
 </Placemark>
 <Placemark>
 <name>Central City Community Health Center - Baldwin Park #2</name>
-<description>4160 N. Main Avenue, Suite #1, 2, &amp;amp; 3 </description>
+<description>4160 N. Main Avenue, Suite #1, 2, 3 </description>
 <Point><coordinates>-117.9649949,34.088339,43</coordinates></Point>
 </Placemark>
 <Placemark>
@@ -42,7 +60,7 @@
 <Point><coordinates>-122.2269785,37.78282166,74</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Ampla Health - Yuba City Medical &amp;amp; Dental</name>
+<name>Ampla Health - Yuba City Medical / Dental</name>
 <description>1000 Sutter St www.amplahealth.org</description>
 <Point><coordinates>-121.6134348,39.14437456,90</coordinates></Point>
 </Placemark>
@@ -197,7 +215,7 @@
 <Point><coordinates>-121.5662476,37.01632977,310</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>WellSpace Health - South Valley Children&#39;s Dental Clinic</name>
+<name>WellSpace Health - South Valley Children's Dental Clinic</name>
 <description>8231 E Stockton Blvd Ste C </description>
 <Point><coordinates>-121.4107272,38.45957176,324</coordinates></Point>
 </Placemark>
@@ -287,7 +305,7 @@
 <Point><coordinates>-122.1624536,37.75848153,495</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&#39;s Clinic at International Elementary School</name>
+<name>The Children's Clinic at International Elementary School</name>
 <description>700 Locust Ave www.thechildrensclinic.org</description>
 <Point><coordinates>-118.191041,33.77540836,499</coordinates></Point>
 </Placemark>
@@ -352,7 +370,7 @@
 <Point><coordinates>-122.6285657,38.23821639,550</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Venice Family Clinic - Bill&amp;#39;s Clinic at Safe Place for Youth</name>
+<name>Venice Family Clinic - Bill's Clinic at Safe Place for Youth</name>
 <description>2469 Lincoln Blvd venicefamilyclinic.org</description>
 <Point><coordinates>-118.4506144,33.99299046,555</coordinates></Point>
 </Placemark>
@@ -377,7 +395,7 @@
 <Point><coordinates>-122.3212148,37.54569844,570</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Center for Family Health &amp;amp; Education, Inc.</name>
+<name>Center for Family Health and Education, Inc.</name>
 <description>8727 Van Nuys Blvd Ste 201 http://cffhae.org/</description>
 <Point><coordinates>-118.4502236,34.22832129,575</coordinates></Point>
 </Placemark>
@@ -552,7 +570,7 @@
 <Point><coordinates>-119.2635495,35.4942522,779</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center at Lynwood</name>
+<name>Eisner Pediatric and Family Medical Center at Lynwood</name>
 <description>3680 E Imperial Hwy Ste 200 </description>
 <Point><coordinates>-118.2014629,33.93202284,781</coordinates></Point>
 </Placemark>
@@ -817,7 +835,7 @@
 <Point><coordinates>-121.8360568,37.99879866,1192</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>SOS-Dr. Robert &amp;amp; Dorothy Beauchamp Children &amp;amp; Family Dental Center</name>
+<name>SOS-Dr. Robert and Dorothy Beauchamp Children and Family Dental Center</name>
 <description>307 Placentia Ave Ste 202 </description>
 <Point><coordinates>-117.9310387,33.62626463,1194</coordinates></Point>
 </Placemark>
@@ -867,7 +885,7 @@
 <Point><coordinates>-118.2899604,34.05242346,1254</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Los Angeles Christian Health Centers @ HHCLA Harm Reduction Center (Exam Rm 1 &amp;amp; 2)</name>
+<name>Los Angeles Christian Health Centers @ HHCLA Harm Reduction Center (Exam Rm 1 and 2)</name>
 <description>512 E 4th St </description>
 <Point><coordinates>-118.2413988,34.04477234,1256</coordinates></Point>
 </Placemark>
@@ -1162,7 +1180,7 @@
 <Point><coordinates>-118.2564056,33.98560982,1607</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center - Van Nuys</name>
+<name>Eisner Pediatric and Family Medical Center - Van Nuys</name>
 <description>6618 Van Nuys Blvd www.eisnerpedcenter.org</description>
 <Point><coordinates>-118.4487003,34.19121544,1616</coordinates></Point>
 </Placemark>
@@ -1262,7 +1280,7 @@
 <Point><coordinates>-122.3370296,37.95642106,1723</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Berkeley Food and Housing Project Women&amp;#39;s Shelter- Supportive Housing Program</name>
+<name>Berkeley Food and Housing Project Women's Shelter- Supportive Housing Program</name>
 <description>2140 Dwight Way </description>
 <Point><coordinates>-122.2660996,37.86410665,1728</coordinates></Point>
 </Placemark>
@@ -1272,7 +1290,7 @@
 <Point><coordinates>-117.3581286,33.20794427,1729</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>APLA Health &amp;amp; Wellness - David Geffen Center</name>
+<name>APLA Health and Wellness - David Geffen Center</name>
 <description>611 S Kingsley Dr Ste 301 www.apla.org</description>
 <Point><coordinates>-118.3028847,34.06304666,1734</coordinates></Point>
 </Placemark>
@@ -1422,7 +1440,7 @@
 <Point><coordinates>-122.1324098,37.47278553,1894</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>La Cl&amp;#237;nica North Vallejo Administrative &amp;amp; Support Services</name>
+<name>La Cl&amp;#237;nica North Vallejo Administrative and Support Services</name>
 <description>200 Hospital Dr http://www.laclinica.org/</description>
 <Point><coordinates>-122.239129,38.13113909,1903</coordinates></Point>
 </Placemark>
@@ -1472,7 +1490,7 @@
 <Point><coordinates>-118.3206509,33.91646948,1946</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>CHC PALISADE WOMEN&#39;S HEALTH</name>
+<name>CHC PALISADE WOMEN'S HEALTH</name>
 <description>210 S Palisade Dr Ste 102 </description>
 <Point><coordinates>-120.412089,34.95168913,1953</coordinates></Point>
 </Placemark>
@@ -1482,7 +1500,7 @@
 <Point><coordinates>-120.4287006,34.92287669,1959</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Venice Family Clinic- Westside Children&amp;#39;s Center: Inglewood</name>
+<name>Venice Family Clinic- Westside Children's Center: Inglewood</name>
 <description>5721 W Slauson Ave Ste 120 </description>
 <Point><coordinates>-118.3824824,33.98897251,1980</coordinates></Point>
 </Placemark>
@@ -1582,7 +1600,7 @@
 <Point><coordinates>-122.0287611,37.61523076,2130</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>AMERICAN INDIAN HEALTH &amp;amp; SERVICES</name>
+<name>AMERICAN INDIAN HEALTH and SERVICES</name>
 <description>4141 State St WWW.AIHSCORP.ORG</description>
 <Point><coordinates>-119.761264,34.44046452,2143</coordinates></Point>
 </Placemark>
@@ -1642,7 +1660,7 @@
 <Point><coordinates>-118.4851534,34.01125111,2223</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Mobile Health/Telehealth &amp;amp; Visiting Specialist Center</name>
+<name>Mobile Health/Telehealth and Visiting Specialist Center</name>
 <description>2426 Buhne St www.opendoorhealth.com</description>
 <Point><coordinates>-124.1406634,40.78591951,2227</coordinates></Point>
 </Placemark>
@@ -1747,7 +1765,7 @@
 <Point><coordinates>-122.7334097,38.44962819,2338</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>MARK&#39;S HOUSE</name>
+<name>MARK'S HOUSE</name>
 <description>203 N N St </description>
 <Point><coordinates>-120.4654959,34.64096475,2341</coordinates></Point>
 </Placemark>
@@ -1842,7 +1860,7 @@
 <Point><coordinates>-122.4063789,37.73223066,2448</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Gardner Packard Children&amp;#39;s Health Center</name>
+<name>Gardner Packard Children's Health Center</name>
 <description>3351 El Camino Real </description>
 <Point><coordinates>-122.2071743,37.46594869,2450</coordinates></Point>
 </Placemark>
@@ -1897,7 +1915,7 @@
 <Point><coordinates>-121.8364366,38.44602041,2510</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Women&amp;#39;s Community Clinic</name>
+<name>Women's Community Clinic</name>
 <description>1833 Fillmore St Fl 3 http://womenscommunityclinic.org</description>
 <Point><coordinates>-122.4333873,37.78652257,2521</coordinates></Point>
 </Placemark>
@@ -2047,7 +2065,7 @@
 <Point><coordinates>-120.90096,37.63794,2766</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Solano County Health &amp;amp; Social Services Department</name>
+<name>Solano County Health and Social Services Department</name>
 <description>275 Beck Ave www.solanocounty.com</description>
 <Point><coordinates>-122.066369,38.23514944,2769</coordinates></Point>
 </Placemark>
@@ -2187,7 +2205,7 @@
 <Point><coordinates>-117.5898684,33.87792134,2956</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Santa Cruz Women&amp;#39;s Health Center</name>
+<name>Santa Cruz Women's Health Center</name>
 <description>250 Locust St </description>
 <Point><coordinates>-122.0287864,36.97493712,2957</coordinates></Point>
 </Placemark>
@@ -2262,7 +2280,7 @@
 <Point><coordinates>-118.4240152,33.99747242,3074</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Center for Family Health &amp;amp; Education, Inc</name>
+<name>Center for Family Health and Education, Inc</name>
 <description>8727 Van Nuys Blvd Ste 101 </description>
 <Point><coordinates>-118.4502236,34.22832129,3087</coordinates></Point>
 </Placemark>
@@ -2347,7 +2365,7 @@
 <Point><coordinates>-118.5361236,34.22261456,3189</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>La Cl&amp;#237;nica Vallejo Great Beginnings Administrative &amp;amp; Support Services</name>
+<name>La Cl&amp;#237;nica Vallejo Great Beginnings Administrative and Support Services</name>
 <description>170 Hospital Dr www.laclinica.org</description>
 <Point><coordinates>-122.2392866,38.13114179,3194</coordinates></Point>
 </Placemark>
@@ -2522,7 +2540,7 @@
 <Point><coordinates>-119.6769119,34.41916672,3430</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>CHILDREN&#39;S HOSPITAL MEDICAL CENTER OF NORTHERN CA</name>
+<name>CHILDREN'S HOSPITAL MEDICAL CENTER OF NORTHERN CA</name>
 <description>747 52nd St www.childrenshospitaloakland.org</description>
 <Point><coordinates>-122.2671481,37.8373476,3432</coordinates></Point>
 </Placemark>
@@ -2567,7 +2585,7 @@
 <Point><coordinates>-117.1455075,32.70228033,3490</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>A WOMAN&#39;S PLACE</name>
+<name>A WOMAN'S PLACE</name>
 <description>1049 Howard St www.healthright360.org</description>
 <Point><coordinates>-122.4083751,37.7787317,3495</coordinates></Point>
 </Placemark>
@@ -2892,7 +2910,7 @@
 <Point><coordinates>-121.0186926,37.61522511,4012</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The S. Mark Taper Foundation Children&#39;s Clinic Family Health Center</name>
+<name>The S. Mark Taper Foundation Children's Clinic Family Health Center</name>
 <description>455 E Columbia St Ste 201 www.thechildrensclinic.org</description>
 <Point><coordinates>-118.1873119,33.80904409,4015</coordinates></Point>
 </Placemark>
@@ -2937,7 +2955,7 @@
 <Point><coordinates>-122.5250162,37.97175067,4055</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>GVHC - MERCED WOMEN&#39;S CLINIC</name>
+<name>GVHC - MERCED WOMEN'S CLINIC</name>
 <description>797 W Childs Ave www.gvhc.org</description>
 <Point><coordinates>-120.4962517,37.28823945,4065</coordinates></Point>
 </Placemark>
@@ -2947,7 +2965,7 @@
 <Point><coordinates>-118.2782728,33.99368997,4073</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>SJWCFC 50th Street Dental Clinic at Boys &amp;amp; Girls Club</name>
+<name>SJWCFC 50th Street Dental Clinic at Boys and Girls Club</name>
 <description>1000 W 50th St </description>
 <Point><coordinates>-118.2918735,33.99772851,4088</coordinates></Point>
 </Placemark>
@@ -3157,7 +3175,7 @@
 <Point><coordinates>-122.1309678,38.00634877,4368</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>WOMEN&#39;S HEALTH AND WELLNESS CENTER</name>
+<name>WOMEN'S HEALTH AND WELLNESS CENTER</name>
 <description>8851 Center Dr Ste 210 </description>
 <Point><coordinates>-117.0076157,32.781828,4375</coordinates></Point>
 </Placemark>
@@ -3177,7 +3195,7 @@
 <Point><coordinates>-118.2885932,33.88164452,4407</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&#39;s Clinic Family Health Center in North Long Beach at Hamilton Middle School</name>
+<name>The Children's Clinic Family Health Center in North Long Beach at Hamilton Middle School</name>
 <description>1060 E 70th St www.thechildrensclinic.org</description>
 <Point><coordinates>-118.1794863,33.88175759,4408</coordinates></Point>
 </Placemark>
@@ -3277,12 +3295,12 @@
 <Point><coordinates>-122.2982452,38.3231552,4540</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Children&#39;s Health Services</name>
+<name>Children's Health Services</name>
 <description>1414 N California St </description>
 <Point><coordinates>-121.2883411,37.96761754,4544</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&amp;#39;s Clinic Administrative Site</name>
+<name>The Children's Clinic Administrative Site</name>
 <description>701 E 28th St </description>
 <Point><coordinates>-118.1842238,33.80802249,4545</coordinates></Point>
 </Placemark>
@@ -3347,7 +3365,7 @@
 <Point><coordinates>-117.7489336,34.07697909,4602</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Perinatal &amp;amp; Women&amp;#39;s Health Suite</name>
+<name>Perinatal and Women's Health Suite</name>
 <description>880 Las Gallinas Ave Ste 2 www.marincityclinic.com</description>
 <Point><coordinates>-122.5483592,38.00749913,4618</coordinates></Point>
 </Placemark>
@@ -3402,7 +3420,7 @@
 <Point><coordinates>-117.0610969,32.56617013,4664</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>GVHC  - O&#39;BANION</name>
+<name>GVHC  - O'BANION</name>
 <description>401 Lesher Dr www.gvhc.org</description>
 <Point><coordinates>-120.5036422,37.29357354,4673</coordinates></Point>
 </Placemark>
@@ -3507,7 +3525,7 @@
 <Point><coordinates>-118.2564889,33.96733854,4847</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>AltaMed Medical &amp;amp; Dental Group: East LA/Whittier West (Boyle Heights)</name>
+<name>AltaMed Medical and Dental Group: East LA/Whittier West (Boyle Heights)</name>
 <description>3945 Whittier Blvd www.altamed.org</description>
 <Point><coordinates>-118.187712,34.02394753,4848</coordinates></Point>
 </Placemark>
@@ -3572,7 +3590,7 @@
 <Point><coordinates>-118.1913276,34.1102917,4919</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>ST JOSEPH&#39;S OFFICE OF THE POOR</name>
+<name>ST JOSEPH'S OFFICE OF THE POOR</name>
 <description>80 S Market St www.Gardnerhealth.org</description>
 <Point><coordinates>-121.8910074,37.33407131,4920</coordinates></Point>
 </Placemark>
@@ -3652,7 +3670,7 @@
 <Point><coordinates>-122.0658635,37.64220287,5033</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Venice Family Clinic - Lou Colen Children&amp;#39;s Health and Wellness Center</name>
+<name>Venice Family Clinic - Lou Colen Children's Health and Wellness Center</name>
 <description>4700 Inglewood Blvd Ste 101 </description>
 <Point><coordinates>-118.4151944,33.99315608,5057</coordinates></Point>
 </Placemark>
@@ -3662,7 +3680,7 @@
 <Point><coordinates>-119.1548259,34.23378062,5058</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Vasek Polak Children&#39;s Clinic Family Health Center</name>
+<name>The Vasek Polak Children's Clinic Family Health Center</name>
 <description>1057 Pine Ave www.thechildrensclinic.org</description>
 <Point><coordinates>-118.1924051,33.78009516,5064</coordinates></Point>
 </Placemark>
@@ -3672,7 +3690,7 @@
 <Point><coordinates>-118.1796977,34.06637625,5071</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center Women&amp;#39;s Health Center</name>
+<name>Eisner Pediatric and Family Medical Center Women's Health Center</name>
 <description>1513 S Grand Ave Ste 220 # 250 </description>
 <Point><coordinates>-118.2661166,34.03610297,5080</coordinates></Point>
 </Placemark>
@@ -3821,7 +3839,7 @@
 <Point><coordinates>-117.1900394,33.71081257,5296</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center at Panorama City OB</name>
+<name>Eisner Pediatric and Family Medical Center at Panorama City OB</name>
 <description>15251 Roscoe Blvd www.eisnerpedcenter.org</description>
 <Point><coordinates>-118.4648794,34.22151224,5301</coordinates></Point>
 </Placemark>
@@ -3861,7 +3879,7 @@
 <Point><coordinates>-122.7303008,38.47987443,5324</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>San Diego Children&#39;s Dental Clinic</name>
+<name>San Diego Children's Dental Clinic</name>
 <description>8110 Birmingham Way </description>
 <Point><coordinates>-117.1526218,32.79672251,5326</coordinates></Point>
 </Placemark>
@@ -4216,7 +4234,7 @@
 <Point><coordinates>-118.2007223,34.0436184,5790</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>JWCH Medical Clinic at Downtown Women&#39;s Center</name>
+<name>JWCH Medical Clinic at Downtown Women's Center</name>
 <description>442 S San Pedro St www.jwchinstitute.org</description>
 <Point><coordinates>-118.2435211,34.04474813,5794</coordinates></Point>
 </Placemark>
@@ -4351,12 +4369,12 @@
 <Point><coordinates>-117.3539441,33.98671858,5957</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Venice Family Clinic - Westside Children&amp;#39;s Center: Wagner</name>
+<name>Venice Family Clinic - Westside Children's Center: Wagner</name>
 <description>12120 Wagner St </description>
 <Point><coordinates>-118.4186734,33.99229146,5967</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>DESERT OASIS WOMEN&amp;#39;S HEALTH CENTER</name>
+<name>DESERT OASIS WOMEN'S HEALTH CENTER</name>
 <description>1180 N Indian Canyon Dr Ste W300 borregomedical.org</description>
 <Point><coordinates>-116.5455694,33.83940463,5969</coordinates></Point>
 </Placemark>
@@ -4541,7 +4559,7 @@
 <Point><coordinates>-122.0305079,36.98523156,6197</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Homeless Persons&#39; Health Project Coral Street Clinic</name>
+<name>Homeless Persons' Health Project Coral Street Clinic</name>
 <description>115 Coral St www.santacruzhealth.org</description>
 <Point><coordinates>-122.0305079,36.98523156,6205</coordinates></Point>
 </Placemark>
@@ -4601,12 +4619,12 @@
 <Point><coordinates>-122.4052448,37.73111877,6265</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>La Amistad &amp;amp; Puente A La Salud Administrative Offices</name>
+<name>La Amistad and Puente A La Salud Administrative Offices</name>
 <description>363 S Main St Ste 204-206 </description>
 <Point><coordinates>-117.8672481,33.78274294,6267</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>APLA Health &amp;amp; Wellness Center - Baldwin Hills</name>
+<name>APLA Health and Wellness Center - Baldwin Hills</name>
 <description>3743 S La Brea Ave www.apla.org</description>
 <Point><coordinates>-118.3556561,34.01922029,6272</coordinates></Point>
 </Placemark>
@@ -4786,7 +4804,7 @@
 <Point><coordinates>-119.4526412,36.59801209,6513</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Griffin&#39;s Gate</name>
+<name>Griffin's Gate</name>
 <description>520 Monterey St </description>
 <Point><coordinates>-118.9935665,35.381481,6523</coordinates></Point>
 </Placemark>
@@ -4846,12 +4864,12 @@
 <Point><coordinates>-121.764578,36.92650359,6615</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Almond Women&amp;#39;s Services</name>
+<name>Almond Women's Services</name>
 <description>363 E Almond Ave Ste 101 www.camarenahealth.org</description>
 <Point><coordinates>-120.0527252,36.94559154,6620</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center - Sherman Oaks</name>
+<name>Eisner Pediatric and Family Medical Center - Sherman Oaks</name>
 <description>15477 Ventura Blvd Ste 300 </description>
 <Point><coordinates>-118.4711681,34.1546673,6630</coordinates></Point>
 </Placemark>
@@ -4906,7 +4924,7 @@
 <Point><coordinates>-122.4065985,37.75617323,6671</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Children&amp;#39;s Health Services</name>
+<name>Children's Health Services</name>
 <description>1414 N California St Ste A www.sjgeneralhospital.com</description>
 <Point><coordinates>-121.2883411,37.96761754,6679</coordinates></Point>
 </Placemark>
@@ -5021,7 +5039,7 @@
 <Point><coordinates>-119.90691,36.60099647,6848</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Center for Family Health &amp;amp; Education, Inc.</name>
+<name>Center for Family Health and Education, Inc.</name>
 <description>8727 Van Nuys Blvd Ste 203 http://cffhae.org/</description>
 <Point><coordinates>-118.4502236,34.22832129,6859</coordinates></Point>
 </Placemark>
@@ -5031,7 +5049,7 @@
 <Point><coordinates>-118.1837182,33.96296037,6863</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>CHC - TEMPLETON WOMEN&amp;#39;S HEALTH</name>
+<name>CHC - TEMPLETON WOMEN'S HEALTH</name>
 <description>292 Posada Ln Ste A </description>
 <Point><coordinates>-120.7214378,35.55298766,6872</coordinates></Point>
 </Placemark>
@@ -5051,7 +5069,7 @@
 <Point><coordinates>-121.8204196,37.35758026,6911</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Center for Family Health &amp;amp; Education Mental Health</name>
+<name>Center for Family Health and Education Mental Health</name>
 <description>14673 Parthenia St Ste 100 </description>
 <Point><coordinates>-118.4523267,34.22818728,6926</coordinates></Point>
 </Placemark>
@@ -5221,7 +5239,7 @@
 <Point><coordinates>-119.2912333,36.53029647,7154</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>SOS Children &amp;amp; Family Health Center</name>
+<name>SOS Children and Family Health Center</name>
 <description>307 Placentia Ave Ste 107 www.shareourselves.org</description>
 <Point><coordinates>-117.9310387,33.62626463,7155</coordinates></Point>
 </Placemark>
@@ -5386,7 +5404,7 @@
 <Point><coordinates>-119.111142,35.36766225,7371</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&#39;s Clinic Family Health Center at Cesar Chavez Elementary School</name>
+<name>The Children's Clinic Family Health Center at Cesar Chavez Elementary School</name>
 <description>730 W 3rd St www.thechildrensclinic.org</description>
 <Point><coordinates>-118.2012129,33.77051252,7378</coordinates></Point>
 </Placemark>
@@ -5431,7 +5449,7 @@
 <Point><coordinates>-118.4786734,34.0089054,7483</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>LA CLINICA DENTAL AT CHILDREN&#39;S HOSPITAL OAKLAND</name>
+<name>LA CLINICA DENTAL AT CHILDREN'S HOSPITAL OAKLAND</name>
 <description>747 52nd St www.laclinica.org</description>
 <Point><coordinates>-122.2671481,37.8373476,7485</coordinates></Point>
 </Placemark>
@@ -5721,7 +5739,7 @@
 <Point><coordinates>-118.6003262,34.19948725,7869</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Martha&amp;#39;s Village &amp;amp; Kitchen</name>
+<name>Martha's Village and Kitchen</name>
 <description>83791 Date Ave Ste &amp; www.marthasvillage.org</description>
 <Point><coordinates>-116.2044937,33.71131846,7878</coordinates></Point>
 </Placemark>
@@ -5751,7 +5769,7 @@
 <Point><coordinates>-116.9610435,33.74754651,7917</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>SAINT MARTHA&#39;S SHELTER</name>
+<name>SAINT MARTHA'S SHELTER</name>
 <description>1050 S Van Ness Ave </description>
 <Point><coordinates>-122.416718,37.75647548,7920</coordinates></Point>
 </Placemark>
@@ -5846,7 +5864,7 @@
 <Point><coordinates>-117.3581286,33.20794427,8008</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Rolland &amp;amp; Kathryn Lowe Medical Center</name>
+<name>Rolland and Kathryn Lowe Medical Center</name>
 <description>835 Webster St </description>
 <Point><coordinates>-122.2712505,37.79952588,8016</coordinates></Point>
 </Placemark>
@@ -5911,7 +5929,7 @@
 <Point><coordinates>-117.8539615,33.75982749,8131</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&#39;s Clinic at the Long Beach Multiservice Center</name>
+<name>The Children's Clinic at the Long Beach Multiservice Center</name>
 <description>1301 W 12th St www.thechildrensclinic.org</description>
 <Point><coordinates>-118.208954,33.78183247,8133</coordinates></Point>
 </Placemark>
@@ -5961,7 +5979,7 @@
 <Point><coordinates>-121.8285,37.37740688,8164</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&#39;s Clinic Family Health Center Westside</name>
+<name>The Children's Clinic Family Health Center Westside</name>
 <description>2125 Santa Fe Ave www.thechildrensclinic.org</description>
 <Point><coordinates>-118.2155794,33.79582456,8172</coordinates></Point>
 </Placemark>
@@ -5971,7 +5989,7 @@
 <Point><coordinates>-121.1358177,41.12275569,8178</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&#39;s Clinic Family Health Center in Central Long Beach</name>
+<name>The Children's Clinic Family Health Center in Central Long Beach</name>
 <description>2360 Pacific Ave </description>
 <Point><coordinates>-118.1936409,33.800049,8183</coordinates></Point>
 </Placemark>
@@ -6176,7 +6194,7 @@
 <Point><coordinates>-118.359997,34.05757727,8446</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Northeast Community Clinic - Women&#39;s Health Center</name>
+<name>Northeast Community Clinic - Women's Health Center</name>
 <description>5820 N Figueroa St www.necc.net</description>
 <Point><coordinates>-118.1913276,34.1102917,8452</coordinates></Point>
 </Placemark>
@@ -6251,7 +6269,7 @@
 <Point><coordinates>-122.034624,37.97875251,8581</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&amp;#39;s Clinic Family Health Center Bellflower</name>
+<name>The Children's Clinic Family Health Center Bellflower</name>
 <description>17660 Lakewood Blvd www.thechildrensclinic.org</description>
 <Point><coordinates>-118.1425399,33.87156269,8586</coordinates></Point>
 </Placemark>
@@ -6266,7 +6284,7 @@
 <Point><coordinates>-122.225077,40.157802,8588</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&amp;#39;s Clinic Family Health Center Roosevelt</name>
+<name>The Children's Clinic Family Health Center Roosevelt</name>
 <description>1574 Linden Ave www.thechildrensclinic.org</description>
 <Point><coordinates>-118.1866061,33.78678087,8603</coordinates></Point>
 </Placemark>
@@ -6446,12 +6464,12 @@
 <Point><coordinates>-122.2696096,37.80371521,8867</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>My Friend&amp;#39;s Place - CHLA</name>
+<name>My Friend's Place - CHLA</name>
 <description>5850 Hollywood Blvd </description>
 <Point><coordinates>-118.3171509,34.10165951,8871</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Central City Community Health Center - 57th &amp;amp; Broadway</name>
+<name>Central City Community Health Center - 57th and Broadway</name>
 <description>5715 S Broadway </description>
 <Point><coordinates>-118.2783346,33.990372,8875</coordinates></Point>
 </Placemark>
@@ -6526,7 +6544,7 @@
 <Point><coordinates>-122.5003517,37.95781904,8955</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>The Children&amp;#39;s Clinic Family Health Center Cabrillo Gateway</name>
+<name>The Children's Clinic Family Health Center Cabrillo Gateway</name>
 <description>2000 San Gabriel Ave www.thechildrensclinic.org</description>
 <Point><coordinates>-118.2239273,33.79263152,8968</coordinates></Point>
 </Placemark>
@@ -6571,7 +6589,7 @@
 <Point><coordinates>-121.7941912,38.68483752,9029</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Mandalay Bay Women &amp; Children&#39;s</name>
+<name>Mandalay Bay Women &amp; Children's</name>
 <description>2000 Outlet Center Dr Ste 110 </description>
 <Point><coordinates>-119.1483397,34.22163685,9039</coordinates></Point>
 </Placemark>
@@ -6701,7 +6719,7 @@
 <Point><coordinates>-119.0213072,35.27275458,9270</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Center for Family Health &amp;amp; Education dba Priority Care Medical Group Mission Hills</name>
+<name>Center for Family Health and Education dba Priority Care Medical Group Mission Hills</name>
 <description>14901 Rinaldi St Ste 202 www.cffhae.org</description>
 <Point><coordinates>-118.4576614,34.27903245,9276</coordinates></Point>
 </Placemark>
@@ -6791,7 +6809,7 @@
 <Point><coordinates>-119.7807589,36.315693,9397</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>JWCH Institute - Downtown Women&#39;s Center</name>
+<name>JWCH Institute - Downtown Women's Center</name>
 <description>442 S Los Angeles St </description>
 <Point><coordinates>-118.2470808,34.04649077,9398</coordinates></Point>
 </Placemark>
@@ -6811,7 +6829,7 @@
 <Point><coordinates>-118.3088773,34.016652,9419</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>APLA Health &amp;amp; Wellness Wilshire Dental Clinic</name>
+<name>APLA Health and Wellness Wilshire Dental Clinic</name>
 <description>1127 Wilshire Blvd Ste 1504 www.apla.org</description>
 <Point><coordinates>-118.2640624,34.05268492,9420</coordinates></Point>
 </Placemark>
@@ -6971,7 +6989,7 @@
 <Point><coordinates>-122.7184779,38.4216755,9675</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>CHILDREN&#39;S HEALTH CENTER</name>
+<name>CHILDREN'S HEALTH CENTER</name>
 <description>1001 Potrero Ave Ste 6M </description>
 <Point><coordinates>-122.4065985,37.75617323,9679</coordinates></Point>
 </Placemark>
@@ -7096,7 +7114,7 @@
 <Point><coordinates>-117.9927641,33.7862898,9843</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Mercy Clinic Loaves &amp;amp; Fishes</name>
+<name>Mercy Clinic Loaves and Fishes</name>
 <description>1321 N C St http://www.dhhs.saccounty.net/PRI/Pages/PRI-Home.aspx</description>
 <Point><coordinates>-121.4832523,38.5910808,9844</coordinates></Point>
 </Placemark>
@@ -7246,7 +7264,7 @@
 <Point><coordinates>-121.0129808,37.62706008,10051</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Laura&amp;#39;s Place</name>
+<name>Laura's Place</name>
 <description>1861 Newton Ave </description>
 <Point><coordinates>-117.1465562,32.70030211,10061</coordinates></Point>
 </Placemark>
@@ -7266,7 +7284,7 @@
 <Point><coordinates>-122.2979735,38.00429346,10086</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Children&#39;s Hospital La Family Housing</name>
+<name>Children's Hospital La Family Housing</name>
 <description>7817 Lankershim Blvd </description>
 <Point><coordinates>-118.3878157,34.212717,10087</coordinates></Point>
 </Placemark>
@@ -7491,7 +7509,7 @@
 <Point><coordinates>-121.2883411,37.96761754,10434</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>APLA Health &amp;amp; Wellness - Long Beach Center</name>
+<name>APLA Health and Wellness - Long Beach Center</name>
 <description>1043 Elm Ave Ste 302 www.aplahw.org</description>
 <Point><coordinates>-118.1880166,33.779637,10438</coordinates></Point>
 </Placemark>
@@ -7566,7 +7584,7 @@
 <Point><coordinates>-121.9099647,37.69782633,10533</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>AltaMed Medical &amp;amp; Dental Group: South Gate</name>
+<name>AltaMed Medical and Dental Group: South Gate</name>
 <description>8627 Atlantic Ave altamed.org</description>
 <Point><coordinates>-118.183834,33.95455783,10536</coordinates></Point>
 </Placemark>
@@ -7676,7 +7694,7 @@
 <Point><coordinates>-117.1484182,32.70430541,10650</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center - Sherman Oaks Dental</name>
+<name>Eisner Pediatric and Family Medical Center - Sherman Oaks Dental</name>
 <description>15477 Ventura Blvd www.pedcenter.org</description>
 <Point><coordinates>-118.4711681,34.1546673,10655</coordinates></Point>
 </Placemark>
@@ -7786,7 +7804,7 @@
 <Point><coordinates>-121.764578,36.92650359,10770</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Eisner Pediatric &amp;amp; Family Medical Center at Panorama City Peds</name>
+<name>Eisner Pediatric and Family Medical Center at Panorama City Peds</name>
 <description>15253 Roscoe Blvd </description>
 <Point><coordinates>-118.4649151,34.22151193,10776</coordinates></Point>
 </Placemark>
@@ -7816,7 +7834,7 @@
 <Point><coordinates>-118.2631427,34.04453158,10841</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>AltaMed General Pediatrics @ Children&#39;s Hospital</name>
+<name>AltaMed General Pediatrics @ Children's Hospital</name>
 <description>4650 W Sunset Blvd www.altamed.org</description>
 <Point><coordinates>-118.2906115,34.09807795,10854</coordinates></Point>
 </Placemark>
@@ -7876,7 +7894,7 @@
 <Point><coordinates>-122.3600156,37.929834,10957</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>APLA Health &amp;amp; Wellness - S. Mark Taper Center</name>
+<name>APLA Health and Wellness - S. Mark Taper Center</name>
 <description>1741 E 120th St www.aplahw.org</description>
 <Point><coordinates>-118.2427832,33.92463634,10968</coordinates></Point>
 </Placemark>
@@ -7896,13 +7914,13 @@
 <Point><coordinates>-122.4171806,37.74821646,10984</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>George &amp;amp; Cynthia Miller Wellness Center</name>
+<name>George and Cynthia Miller Wellness Center</name>
 <description>25 Allen St </description>
 <Point><coordinates>-122.1331516,38.00748717,10985</coordinates></Point>
 </Placemark>
 <Placemark>
 <name>San Fernando High School - Teen Health Center</name>
-<description>11051 N. O&amp;#39;Melveny Avenue www.nevhc.org</description>
+<description>11051 N. O'Melveny Avenue www.nevhc.org</description>
 <Point><coordinates>-118.4429105,34.273149,10994</coordinates></Point>
 </Placemark>
 <Placemark>
@@ -7976,7 +7994,7 @@
 <Point><coordinates>-118.241284,33.94555551,11065</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Community Health Center - Advanced Women&amp;#39;s Health</name>
+<name>Community Health Center - Advanced Women's Health</name>
 <description>1510 E Main St Ste 104 </description>
 <Point><coordinates>-120.4101931,34.95281954,11082</coordinates></Point>
 </Placemark>
@@ -8071,7 +8089,7 @@
 <Point><coordinates>-119.7809639,36.7433355,11205</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>SF GENERAL HOSP WOMEN&#39;S HLTH CTR</name>
+<name>SF GENERAL HOSP WOMEN'S HLTH CTR</name>
 <description>1001 Potrero Ave Bldg 5F </description>
 <Point><coordinates>-122.4065985,37.75617323,11207</coordinates></Point>
 </Placemark>
@@ -8271,7 +8289,7 @@
 <Point><coordinates>-118.2701194,33.99557625,11463</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Center for Family Health &amp;amp; Education, Inc.</name>
+<name>Center for Family Health and Education, Inc.</name>
 <description>8727 Van Nuys Blvd Ste 103 </description>
 <Point><coordinates>-118.4502236,34.22832129,11465</coordinates></Point>
 </Placemark>
@@ -8455,7 +8473,7 @@
 <Point><coordinates>-120.45815,36.86050704,11680</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Camarena Health - Women&#39;s Health Center</name>
+<name>Camarena Health - Women's Health Center</name>
 <description>201 S B St www.camarenahealth.org</description>
 <Point><coordinates>-120.0551304,36.96290678,11682</coordinates></Point>
 </Placemark>
@@ -8470,7 +8488,7 @@
 <Point><coordinates>-122.4192297,37.78357942,11706</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>Beach Area Women&#39;s Health Center</name>
+<name>Beach Area Women's Health Center</name>
 <description>3690 Mission Blvd www.fhcsd.org</description>
 <Point><coordinates>-117.2525856,32.78236391,11710</coordinates></Point>
 </Placemark>
@@ -8650,7 +8668,7 @@
 <Point><coordinates>-118.321551,34.1016805,11967</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>EISNER PEDIATRIC &amp;amp; FAMILY MEDICAL CENTER</name>
+<name>EISNER PEDIATRIC and FAMILY MEDICAL CENTER</name>
 <description>1530 S Olive St www.eisnerpedcenter.org</description>
 <Point><coordinates>-118.2649896,34.03566311,11973</coordinates></Point>
 </Placemark>
@@ -8840,12 +8858,12 @@
 <Point><coordinates>-116.3799622,33.25655646,12241</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>LAMONT CHILDREN&#39;S BEHAVIORAL HEALTH SERVICES</name>
+<name>LAMONT CHILDREN'S BEHAVIORAL HEALTH SERVICES</name>
 <description>7839 Burgundy Ave www.clinicasierravista.org</description>
 <Point><coordinates>-118.9172798,35.26322648,12248</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>ENCINITAS WOMEN &amp; CHILDREN&#39;S HC</name>
+<name>ENCINITAS WOMEN &amp; CHILDREN'S HC</name>
 <description>1130 2nd St www.nchs-health.org</description>
 <Point><coordinates>-117.2936922,33.03755797,12253</coordinates></Point>
 </Placemark>
@@ -8890,7 +8908,7 @@
 <Point><coordinates>-122.7304495,38.44650387,12311</coordinates></Point>
 </Placemark>
 <Placemark>
-<name>South Bay Family Health &amp;amp; Dental Center</name>
+<name>South Bay Family Health and Dental Center</name>
 <description>330 E 8th St # 340 </description>
 <Point><coordinates>-117.1030837,32.67686732,12313</coordinates></Point>
 </Placemark>
