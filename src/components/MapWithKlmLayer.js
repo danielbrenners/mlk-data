@@ -1,5 +1,4 @@
 import React from "react";
-import HPSA_Points_Mental_Health_CA from "../data/HPSA_Points_Mental_Health_CA.kml";
 
 const { compose, withProps } = require("recompose");
 const {
@@ -22,7 +21,7 @@ const MapWithKmlLayer = compose(
 )(props => (
   <GoogleMap defaultZoom={9} defaultCenter={{ lat: 41.9, lng: -87.624 }}>
     <KmlLayer
-      url="https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HPSA_Points_Mental_Health_CA.kml"
+      url="https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HPSA_Area_Mental_Health_CA.kml"
       options={{ preserveViewport: true }}
     />
   </GoogleMap>
