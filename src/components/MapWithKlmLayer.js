@@ -1,5 +1,14 @@
 import React from "react";
 
+const hcc =
+  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HCC/Site_HCC_CA.kml";
+const hspa_dental =
+  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HSPA/CA/HPSA_Points_Dental_Health_CA.kml";
+const hspa_mental =
+  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HSPA/CA/HPSA_Points_Mental_Health_CA.kml";
+const hspa_primary =
+  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HSPA/CA/HPSA_Points_Primary_Care_CA.kml";
+
 const { compose, withProps } = require("recompose");
 const {
   withScriptjs,
@@ -20,10 +29,7 @@ const MapWithKmlLayer = compose(
   withGoogleMap
 )(props => (
   <GoogleMap defaultZoom={9} defaultCenter={{ lat: 41.9, lng: -87.624 }}>
-    <KmlLayer
-      url="https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HPSA_Area_Mental_Health_CA.kml"
-      options={{ preserveViewport: true }}
-    />
+    <KmlLayer url={hcc} options={{ preserveViewport: true }} />
   </GoogleMap>
 ));
 
