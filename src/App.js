@@ -3,7 +3,6 @@ import logo from "./images/gfl-mlk.png";
 import "./App.css";
 
 import MapComponent from "./components/MapComponent";
-import BasicMapComponent from "./components/BasicMapComponent";
 
 class App extends Component {
   state = {
@@ -20,7 +19,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
 
-        <BasicMapComponent
+        <MapComponent
           showHCC={this.state.showHCC}
           showHSPAPrimary={this.state.showHSPAPrimary}
           showHSPAMental={this.state.showHSPAMental}
