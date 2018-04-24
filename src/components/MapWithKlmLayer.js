@@ -1,36 +1,57 @@
-import React from "react";
+import React, { Component } from "react";
+import { withGoogleMap, GoogleMap, KmlLayer } from "react-google-maps";
+import MapStyle from "../data/MapStyles/GFLMapStyle.json";
+import styled from "styled-components";
 
-const hcc =
-  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HCC/Site_HCC_CA.kml";
-const hspa_dental =
-  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HSPA/CA/HPSA_Points_Dental_Health_CA.kml";
-const hspa_mental =
-  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HSPA/CA/HPSA_Points_Mental_Health_CA.kml";
-const hspa_primary =
-  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HSPA/CA/HPSA_Points_Primary_Care_CA.kml";
+const hcc_mobile =
+  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HCC/kml/hcc_mobile.kml";
+const hcc_permanent =
+  "https://raw.githubusercontent.com/danielbrenners/mlk-data/master/src/data/HCC/kml/hcc_permanent.kml";
 
-const { compose, withProps } = require("recompose");
-const {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  KmlLayer
-} = require("react-google-maps");
+class MapComponent extends Component {
+  render() {
+    const KmlLayers = [];
+    console.log(this.props);
+    if (this.props.showHCCPermanent === true) {
+      KmlLayers.push(
+        <KmlLayer
+          key="permanent"
+          url={hcc_permanent}
+          options={{ preserveViewport: true }}
+        />
+      );
+    }
+    if (this.props.showHCCMobile === true) {
+      KmlLayers.push(
+        <KmlLayer
+          key="local"
+          url={hcc_mobile}
+          options={{ preserveViewport: true }}
+        />
+      );
+    }
 
-const MapWithKmlLayer = compose(
-  withProps({
-    googleMapURL:
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyC4R6AN7SmujjPUIGKdyao2Kqitzr1kiRg&v=3.exp&libraries=geometry,drawing,places",
-    loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px` }} />,
-    mapElement: <div style={{ height: `100%` }} />
-  }),
-  withScriptjs,
-  withGoogleMap
-)(props => (
-  <GoogleMap defaultZoom={9} defaultCenter={{ lat: 41.9, lng: -87.624 }}>
-    <KmlLayer url={hcc} options={{ preserveViewport: true }} />
-  </GoogleMap>
-));
+    const GoogleMapExample = withGoogleMap(props => (
+      <GoogleMap
+        defaultCenter={{ lat: 33.922756, lng: -118.24306 }}
+        defaultZoom={13}
+        defaultOptions={{ styles: MapStyle }}
+      >
+        {KmlLayers}
+      </GoogleMap>
+    ));
 
-export default MapWithKmlLayer;
+    return (
+      <Wrapper>
+        <GoogleMapExample
+          containerElement={<div style={{ height: "500px" }} />}
+          mapElement={<div style={{ height: "100%" }} />}
+        />
+      </Wrapper>
+    );
+  }
+}
+
+const Wrapper = styled.div``;
+
+export default MapComponent;
